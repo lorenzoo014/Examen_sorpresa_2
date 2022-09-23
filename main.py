@@ -63,7 +63,7 @@ def pruebas():
             print("Ejercicio_4 ...\n")
             tabla.crearTabla(5,5)
 
-        if opcion == '6':
+        if opcion == '5':
             print("Saliendo...\n")
             break
 input("\nPresiona ENTER para continuar...")
