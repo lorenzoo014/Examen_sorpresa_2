@@ -2,27 +2,29 @@
 
 class tabla():
     #----------------1er_Ej.----------------#
-    def crearTabla(argumento1, argumento2):                
+    def crearTabla(filas, columnas):                
         try:
-            argumento2= int(argumento2)
-            argumento1= int(argumento1)
+            columnas= int(columnas)
+            filas= int(filas)
         except:
             print("SE TIENEN QUE INTRODUCIR NUMEROS")
 
-        assert argumento1<10 ,"Introduce un numero entre el 1 y el 10"
-        assert argumento2<10 ,"Introduce un numero entre el 1 y el 10"
+        assert filas<10 ,"Introduce un numero entre el 1 y el 9"
+        assert columnas<10 ,"Introduce un numero entre el 1 y el 9"
 
 
         #----------------2do_Ej.----------------#
 
-
-        for i in range (0,argumento1+1):
-            for i in range (0,argumento2+1):
+        print("--------TODO_FILAS--------")
+        for i in range (0,filas+1):
+            for i in range (0,columnas+1):
                 print("*", end="")
+        print("\n")
+        print("--------RECTANGULO--------")
 
-        for i in range (0,argumento1):
+        for i in range (0,filas):
             print("")#cambio de linea
-            for i in range (0,argumento2):
+            for i in range (0,columnas):
                 print("*", end="")
 
         print("La ultima se considera la tabla final")

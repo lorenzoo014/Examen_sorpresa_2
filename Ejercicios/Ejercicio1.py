@@ -15,7 +15,7 @@ class Ejercicio1():
             else:
                 element[-1] = sum(element)-element[-1]
 
-        print(matriz)
+        return matriz
 
 
         #hay que hacer lo de toca si es ejercicio 1
