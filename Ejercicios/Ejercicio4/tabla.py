@@ -22,8 +22,8 @@ argumento2=3 #columnas
 #         print("*", end="")
 
 for i in range (0,argumento1):
-    print("*")
-    for i in range (0,argumento2+1):
+    print("")#cambio de linea
+    for i in range (0,argumento2):
         print("*", end="")
 
 
