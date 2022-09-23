@@ -1,25 +1,26 @@
 
 #----------------1er_Ej.----------------#
-# argumento1 = input("Introduce un numero ")
-# argumento2= input("Introduce un segundo numero ")
+argumento1 = input("Introduce un numero ")        #filas
+argumento2= input("Introduce un segundo numero ") #columnas
 
 
-# try:
-#     argumento2= int(argumento2)
-#     argumento1= int(argumento1)
-# except:
-#     print("SE TIENEN QUE INTRODUCIR NUMEROS")
+try:
+    argumento2= int(argumento2)
+    argumento1= int(argumento1)
+except:
+    print("SE TIENEN QUE INTRODUCIR NUMEROS")
 
-# assert argumento1<10 ,"Introduce un numero entre el 1 y el 10"
-# assert argumento2<10 ,"Introduce un numero entre el 1 y el 10"
+assert argumento1<10 ,"Introduce un numero entre el 1 y el 10"
+assert argumento2<10 ,"Introduce un numero entre el 1 y el 10"
 
 
 #----------------2do_Ej.----------------#
-argumento1=5 #filas
-argumento2=3 #columnas
-# for i in range (0,argumento1+1):
-#     for i in range (0,argumento2+1):
-#         print("*", end="")
+# argumento1=5 #filas
+# argumento2=3 #columnas
+
+for i in range (0,argumento1+1):
+    for i in range (0,argumento2+1):
+        print("*", end="")
 
 for i in range (0,argumento1):
     print("")#cambio de linea
