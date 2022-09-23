@@ -1,8 +1,21 @@
 class Ejercicio3:
-    def añadeElementos(primeroElemento,segundoElemento,avance=1):
+    def añadeElementos(primerElemento,segundElemento,avance=1):
         lista1=[]
-        for element in range(primeroElemento,segundoElemento,avance):
+        for element in range(primerElemento,segundElemento,avance):
             lista1.append(element)
+        return lista1
+
+
+    def añadeElementos2(primerElemento,segundoElemento,avance=1):
+        primerElemento+=avance
+        segundoElemento-=avance
+        lista1=[]
+
+        
+        if(segundoElemento==0):
+            return lista1
+        lista1.append(primerElemento)
+        añadeElementos2(primerElemento,segundoElemento)
 
 
 
