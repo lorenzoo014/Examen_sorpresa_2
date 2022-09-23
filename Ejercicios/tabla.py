@@ -26,7 +26,7 @@ class tabla():
             print("")#cambio de linea
             for i in range (0,columnas):
                 print("*", end="")
-
+        print("")
         print("La ultima se considera la tabla final")
 
 # assert (type(argumento1) == int or int(argumento1)<10 or int(argumento2)<10), "Introduce un numero de verdad"
