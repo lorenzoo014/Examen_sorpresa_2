@@ -19,8 +19,8 @@ class tabla():
         #----------------2do_Ej.----------------#
 
         print("--------TODO_FILAS--------")
-        for i in range (0,filas+1):
-            for i in range (0,columnas+1):
+        for i in range (0,filas):
+            for i in range (0,columnas):
                 print("*", end="")
         print("\n")
         print("--------RECTANGULO--------")
