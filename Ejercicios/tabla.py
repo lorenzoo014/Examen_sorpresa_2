@@ -2,12 +2,15 @@
 
 class tabla():
     #----------------1er_Ej.----------------#
-    def crearTabla(filas, columnas):                
+    def crearTabla(filas="k", columnas="k"):                
         try:
             columnas= int(columnas)
             filas= int(filas)
         except:
-            print("SE TIENEN QUE INTRODUCIR NUMEROS")
+            print("Informacion acerca del Script:" + "\n" + 
+            "se debe utilizar dos argumentos, uno que sean filas y otro que sean columnas" + "\n" +
+            "si no se introduce algo de lo especificado  y de la forma especificada seguirá dando error"
+            )
 
         assert filas<10 ,"Introduce un numero entre el 1 y el 9"
         assert columnas<10 ,"Introduce un numero entre el 1 y el 9"
