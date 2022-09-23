@@ -1,12 +1,12 @@
 class Ejercicio3:
-    def añadeElementos(primerElemento,segundElemento,avance=1):
+    def añadeElementos( primerElemento,segundElemento,avance=1):
         lista1=[]
         for element in range(primerElemento,segundElemento,avance):
             lista1.append(element)
         return lista1
 
 
-    def añadeElementos2(primerElemento,segundoElemento,avance=1):
+    def añadeElementos2( primerElemento,segundoElemento,avance=1):
         primerElemento+=avance
         segundoElemento-=avance
         lista1=[]

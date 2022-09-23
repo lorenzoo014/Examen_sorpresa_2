@@ -2,7 +2,7 @@
 from Ejercicios import Ejercicio1,Ejercicio2,Ejercicio3, tabla #importacion de los modulos
 from Ejercicios.Ejercicio1 import Ejercicio1  #importacion
 from Ejercicios.Ejercicio2 import Ejercicio2  #de
-from Ejercicios.Ejercicio3 import Ejercicio3  #las
+# from Ejercicios.Ejercicio3 import Ejercicio3  #las
 from Ejercicios.tabla import tabla            #clases
 
 
@@ -42,10 +42,10 @@ def pruebas():
             print("nochevieja")
             print("fun__fun__fun")
             print("adios")
-            Ejercicio2.Ejericio2.cadena("Hola")
-            Ejercicio2.Ejericio2.cadena("nochevieja")
-            Ejercicio2.Ejericio2.cadena("fun__fun__fun")
-            Ejercicio2.Ejericio2.cadena("adios")
+            Ejercicio2.cadena("Hola")
+            Ejercicio2.cadena("nocheviejaa")
+            Ejercicio2.cadena("fun__fun__fun")
+            Ejercicio2.cadena("adios")
 
         if opcion == "3":
             print("Ejercicio_3 ...\n")
