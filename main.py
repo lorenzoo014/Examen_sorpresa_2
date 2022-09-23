@@ -2,7 +2,7 @@
 from Ejercicios import Ejercicio1,Ejercicio2,Ejercicio3, tabla #importacion de los modulos
 from Ejercicios.Ejercicio1 import Ejercicio1  #importacion
 from Ejercicios.Ejercicio2 import Ejercicio2  #de
-# from Ejercicios.Ejercicio3 import Ejercicio3  #las
+from Ejercicios.Ejercicio3 import Ejercicio3  #las
 from Ejercicios.tabla import tabla            #clases
 
 
@@ -37,7 +37,7 @@ def pruebas():
             print("[4,4,4,13]")
             print(Ejercicio1.sumaMatrices(matriz))
         if opcion == "2":
-            print("Ejercicio_2 con los siguientes strings...\n")ç
+            print("Ejercicio_2 con los siguientes strings...\n")
             print("Hola")
             print("nochevieja")
             print("fun__fun__fun")
@@ -48,13 +48,20 @@ def pruebas():
             Ejercicio2.Ejericio2.cadena("adios")
 
         if opcion == "3":
-            0-10
-            -10,0
-            0,20--pares
-            -20,0--impares
-            0,50---5
-            
+            print("Ejercicio_3 ...\n")
+            print("del 0 al 10")
+            Ejercicio3.añadeElementos2(0,10)
+            print("del -10 al 0")
+            Ejercicio3.añadeElementos2(-10,0)
+            print("del 0 al 20 pares")
+            Ejercicio3.añadeElementos2(0,10,2)
+            print("del -20 al 0")
+            Ejercicio3.añadeElementos2(-19,0,2)
+            print("del 0 al 50")
+            Ejercicio3.añadeElementos2(0,50,5)
         if opcion == "4":
+            print("Ejercicio_4 ...\n")
+            tabla.crearTabla("")
 
 
 
