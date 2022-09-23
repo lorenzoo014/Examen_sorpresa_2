@@ -1,4 +1,5 @@
-cadena = input(" Introduzca un texto ")
+class Ejericio2:
+    def cadena(texto):
 
-print("Es cierto que lo introcido esta entre 3 y 9 caracteres?")
-print(len(cadena)>=3 or len(cadena<10))
+        print("Es cierto que lo introcido esta entre 3 y 9 caracteres?")
+        print(len(texto)>=3 or len(texto<10))

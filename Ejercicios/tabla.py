@@ -3,7 +3,8 @@
 argumento1 = input("Introduce un numero ")        #filas
 argumento2= input("Introduce un segundo numero ") #columnas
 
-
+class tabla():
+    def crearTabla
 try:
     argumento2= int(argumento2)
     argumento1= int(argumento1)
@@ -30,9 +31,3 @@ for i in range (0,argumento1):
 
 # assert (type(argumento1) == int or int(argumento1)<10 or int(argumento2)<10), "Introduce un numero de verdad"
 
-
-
-# space = 2
-# for i in range(1,6,2):
-#     print(space*' '+i*'*')
-#     space = space-1
