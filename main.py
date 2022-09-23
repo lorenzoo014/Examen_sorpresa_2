@@ -2,7 +2,7 @@
 from Ejercicios import Ejercicio1,Ejercicio2,Ejercicio3, tabla #importacion de los modulos
 from Ejercicios.Ejercicio1 import Ejercicio1  #importacion
 from Ejercicios.Ejercicio2 import Ejercicio2  #de
-# from Ejercicios.Ejercicio3 import Ejercicio3  #las
+from Ejercicios.Ejercicio3 import Ejercicio3  #las
 from Ejercicios.tabla import tabla            #clases
 
 
@@ -29,6 +29,7 @@ def pruebas():
         print("[5] Cerrar el Manager ")
         print("========================")
         opcion = input("> ")
+        #--------1era_opcion--------#
         if opcion == '1':
             print("Ejercicio_1 con la siguiente matriz...\n")
             print("[1,1,1,3]")
@@ -36,6 +37,7 @@ def pruebas():
             print("[3,3,3,9]")
             print("[4,4,4,13]")
             print(Ejercicio1.sumaMatrices(matriz))
+        #--------2da_opcion--------#
         if opcion == "2":
             print("Ejercicio_2 con los siguientes strings...\n")
             print("Hola")
