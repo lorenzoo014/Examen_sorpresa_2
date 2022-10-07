@@ -31,6 +31,6 @@ class tabla():
                 print("*", end="")
         print("")
         print("La ultima se considera la tabla final")
-
+# tabla.crearTabla(2,3)
 # assert (type(argumento1) == int or int(argumento1)<10 or int(argumento2)<10), "Introduce un numero de verdad"
 

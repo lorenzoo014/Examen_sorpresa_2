@@ -69,4 +69,5 @@ def pruebas():
             print("Saliendo...\n")
             break
 input("\nPresiona ENTER para continuar...")
+# pruebas() -->se podría ejecutar el main directamente poniendo esta sentencia
 
